@@ -15,7 +15,10 @@ The script performs the following steps:
 
 1.  **Install Dependencies**:
     First, install the required Python packages from the `requirements.txt` file.
+
     ```bash
+    conda create -n btaic python=3.12 -y
+    conda activate btaic
     pip install -r requirements.txt
     ```
 
